@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertGuide25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertGuide50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertGuide75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuide125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.125" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuide275"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.275" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuide40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuide55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuide70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuide85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <Button
+        android:id="@+id/butNum7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="7"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide55"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horGuide40" />
+
+    <Button
+        android:id="@+id/butNum8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="8"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide55"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide50"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide25"
+        app:layout_constraintTop_toTopOf="@+id/horGuide40" />
+
+    <Button
+        android:id="@+id/butNum9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="9"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide55"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide75"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide50"
+        app:layout_constraintTop_toTopOf="@+id/horGuide40" />
+
+    <Button
+        android:id="@+id/butNum4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="4"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide70"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horGuide55" />
+
+    <Button
+        android:id="@+id/butNum5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="5"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide70"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide50"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide25"
+        app:layout_constraintTop_toTopOf="@+id/horGuide55" />
+
+    <Button
+        android:id="@+id/butNum6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="6"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide70"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide75"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide50"
+        app:layout_constraintTop_toTopOf="@+id/horGuide55"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <Button
+        android:id="@+id/butNum1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="1"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide85"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horGuide70" />
+
+    <Button
+        android:id="@+id/butNum2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="2"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide85"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide50"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide25"
+        app:layout_constraintTop_toTopOf="@+id/horGuide70" />
+
+    <Button
+        android:id="@+id/butNum3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="3"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide85"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide75"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide50"
+        app:layout_constraintTop_toTopOf="@+id/horGuide70" />
+
+    <Button
+        android:id="@+id/butNum0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="0"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horGuide85" />
+
+    <Button
+        android:id="@+id/butCalcComa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text=","
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide75"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide50"
+        app:layout_constraintTop_toTopOf="@+id/horGuide85"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <Button
+        android:id="@+id/butCalcEquals"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="25dp"
+        android:text="="
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide75"
+        app:layout_constraintTop_toTopOf="@+id/horGuide70" />
+
+    <Button
+        android:id="@+id/butCalcClearEntry"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="CE"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide75"
+        app:layout_constraintTop_toTopOf="@+id/horGuide40" />
+
+    <Button
+        android:id="@+id/butCalcDel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text="DEL"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide75"
+        app:layout_constraintTop_toBottomOf="@+id/butCalcClearEntry" />
+
+    <TextView
+        android:id="@+id/textViewConverOutput"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text=""
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horGuide275" />
+
+    <TextView
+        android:id="@+id/textViewConverInput"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:text=""
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide125"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butDivLliure"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lliures"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide275"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide25"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horGuide125"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/butDivDollar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Dollar"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide275"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide50"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide25"
+        app:layout_constraintTop_toTopOf="@+id/horGuide125" />
+
+    <Button
+        android:id="@+id/butDivYen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Yen"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide275"
+        app:layout_constraintEnd_toStartOf="@+id/vertGuide75"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide50"
+        app:layout_constraintTop_toTopOf="@+id/horGuide125" />
+
+    <Button
+        android:id="@+id/butDivYuan"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Yuan"
+        app:layout_constraintBottom_toTopOf="@+id/horGuide275"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vertGuide75"
+        app:layout_constraintTop_toTopOf="@+id/horGuide125" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
